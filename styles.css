@@ -1,0 +1,71 @@
+.box {
+  width: 1000px;
+  padding: 20px;
+  margin: auto;
+  display: flex;
+  gap: 40px ;
+  flex-wrap: wrap;
+}
+
+.bigboxes {
+  width: 200px;
+  height: 200px;
+  background-color: #995db5;
+  border: 2px solid #2d0234;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+
+.boxes {
+  width: 40px;
+  height: 40px;
+  background-color: #f7941f;
+  border-radius: 10px;
+  border: 2px solid #2d0234;
+}
+
+.box1, .box5, .box9 {
+ display: flex;
+ gap: 8px;
+}
+
+.box2 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.box3 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.box4, .box8, .box12 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box6 {
+  display: flex;
+  gap: 8px;
+  flex-direction: row-reverse;
+}
+
+.box7 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.box10 {
+  display: flex;
+  gap: 5px;
+  align-items: end;
+}
+
+.box11 {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
